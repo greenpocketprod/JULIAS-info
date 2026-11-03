@@ -1,54 +1,63 @@
-## Support
+# JULIAS Privacy Policy
 
-### Getting Help
+**Last Updated:** September 2026
 
-If you encounter issues with JULIAS or have questions about the app, please contact us:
+### 1. Overview
 
-**Email:** greenpocketprod@gmail.com
+JULIAS is a field utility application designed for small teams to manage location directories, track time calculations, and generate reports. This privacy policy explains how JULIAS handles user data.
 
-**Response Time:** Support requests are typically addressed within 1-2 business days.
+### 2. Data Collection & Use
 
-### Common Issues & Troubleshooting
+#### 2.1 Directory and Location Data
+JULIAS allows users to create and maintain a directory of locations with associated information (names, coordinates, notes, and timestamps). This data is stored locally on the device and synchronized across team member devices via iCloud Drive.
 
-#### Sync Not Working
-1. Ensure all team members have enabled iCloud Drive in Settings > [Your Name] > iCloud > iCloud Drive
-2. Check that your device has an active internet connection
-3. Wait 15-30 seconds for iCloud to sync changes
-4. Force-refresh by navigating away from and back to the Directory tab
-5. Restart the app if sync still does not occur
+#### 2.2 Sync Information
+- **iCloud Drive Storage**: Directory entries, reports, and user preferences are synced through Apple's iCloud Drive using a shared CSV file format. This data remains encrypted in transit and at rest by Apple's iCloud infrastructure.
+- **No Third-Party Sync**: Data is never sent to third-party servers. Synchronization occurs only between team members' devices via iCloud.
 
-#### 7-Day Dev Certificate Expiration (Development Builds)
-If you receive an "untrusted developer" message, the development signing certificate has expired:
-1. Close the app
-2. Reconnect your device in Xcode
-3. Rebuild and re-sign the app
+#### 2.3 Local Data
+- **User Profiles**: The app stores locally selectable user profiles to identify which team member is performing actions.
+- **Draft Reports**: Report drafts are stored locally on your device using the system's secure UserDefaults storage.
+- **Timing Data**: Clock and time calculation data used for reporting is processed locally on the device and not transmitted externally.
 
-#### Draft Reports Lost
-Draft reports are stored locally. They will be lost if:
-- The app is force-quit without saving
-- The app is uninstalled
-- The device storage is cleared
+#### 2.4 Network Information
+JULIAS uses the system network connectivity API (NWPathMonitor) only to detect whether an internet connection is available. No network activity data is collected or logged.
 
-Always save reports to iCloud Drive before closing the app.
+### 3. Data You Do Not Provide
 
-#### Clock Display Lag
-The clock view may display with a one-second delay on first load. This is a known issue and does not affect functionality. Refresh the view to synchronize.
+JULIAS does **not**:
+- Track your location in the background
+- Collect analytics or usage data
+- Use cookies or tracking pixels
+- Collect advertising identifiers
+- Share data with third parties
+- Require account registration or login
 
-### Feature Requests & Feedback
+### 4. Data Security
 
-We welcome suggestions for improvements. Please email your feedback to the support address above.
+- All data stored on your device is protected by iOS security features
+- iCloud data is encrypted by Apple using your iCloud credentials
+- Only team members with access to the shared iCloud Drive can view synchronized data
+- You retain full control over your data and can delete it at any time by removing the app or managing iCloud Drive files directly
 
-### Privacy Concerns
+### 5. Children's Privacy
 
-If you have concerns about how JULIAS handles your data, please contact us immediately at greenpocketprod@gmail.com.
+JULIAS is designed for professional field teams and is not intended for children under 13. We do not knowingly collect data from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
 
----
+### 6. California Privacy Rights (CCPA)
 
-## App Information
+California residents have the right to:
+- Know what data is collected
+- Delete personal information
+- Opt-out of data sharing (not applicable; we do not share)
 
-**Developer:** Green Pocket  
-**Contact Email:** greenpocketprod@gmail.com  
-**App Type:** Field Utility / Team Collaboration  
-**Minimum iOS Version: 26.5 
-**Data Sync:** iCloud Drive (CSV format)
+Since JULIAS does not sell, share, or transfer personal information, and stores data locally or in your own iCloud account, these rights are protected by default.
+
+### 7. International Privacy
+
+**GDPR Compliance**: For users in the European Union, GDPR protections apply. Your data remains under your control and stored in your own iCloud account. You have the right to access, correct, or delete your data at any time.
+
+### 8. Changes to This Policy
+
+We may update this privacy policy occasionally. Changes will be posted here with an updated "Last Updated" date. Continued use of JULIAS after changes constitutes acceptance of the updated policy.
 
